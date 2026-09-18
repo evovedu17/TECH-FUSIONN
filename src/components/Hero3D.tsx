@@ -429,7 +429,7 @@ export const Hero3D: React.FC<Hero3DProps> = ({ onExplore, onOpenCommandCenter }
             </span>
             <span className="inline-flex items-center gap-1 text-[10px] font-mono text-emerald-600 font-semibold bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
-              LIVE SIMULATION
+              ACTIVE STREAM
             </span>
           </div>
 
@@ -437,7 +437,7 @@ export const Hero3D: React.FC<Hero3DProps> = ({ onExplore, onOpenCommandCenter }
             <div className="p-2.5 bg-zinc-50 rounded-lg border border-zinc-100">
               <span className="text-[10px] text-zinc-500 block uppercase">MONITORED FLOW</span>
               <span className="text-lg font-bold text-zinc-900">18,420</span>
-              <span className="text-[9px] text-zinc-400 block">simulated people</span>
+              <span className="text-[9px] text-zinc-400 block">current headcount</span>
             </div>
             <div className="p-2.5 bg-orange-50/50 rounded-lg border border-orange-100">
               <span className="text-[10px] text-orange-600 block uppercase font-semibold">SURGE SECTOR</span>

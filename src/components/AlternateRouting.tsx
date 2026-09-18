@@ -256,9 +256,6 @@ export const AlternateRouting: React.FC = () => {
                   ALTERNATE ROUTE B: {isDiverted ? '30%' : '5%'} FLOW
                 </span>
               </div>
-              <span className="text-[10px] font-mono text-zinc-400 bg-white/80 px-2 py-1 rounded">
-                SIMULATION / DEMO DATA
-              </span>
             </div>
           </div>
 

@@ -398,9 +398,6 @@ export const SmartMap3D: React.FC<SmartMap3DProps> = ({
                   <span className="w-2.5 h-0.5 bg-emerald-500 border-dashed"></span> Route B (Bypass)
                 </span>
               </div>
-              <span className="text-[10px] font-mono text-zinc-500 bg-white/80 px-2.5 py-1 rounded">
-                SIMULATION / DEMO DATA
-              </span>
             </div>
           </div>
 

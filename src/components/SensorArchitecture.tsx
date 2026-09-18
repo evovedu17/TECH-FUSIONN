@@ -292,9 +292,8 @@ export const SensorArchitecture: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-2">
-                  <DemoBadge size="sm" />
                   <span className="text-xs text-zinc-400 font-mono">
-                    Interrupted pings: {irCrossingCount} test simulations
+                    Interrupted pings: {irCrossingCount} test triggers
                   </span>
                 </div>
               </div>

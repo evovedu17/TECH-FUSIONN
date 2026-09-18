@@ -272,7 +272,7 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
       { label: 'High-Density Zones', value: '02', highlight: true },
       { label: 'Predicted Peak Crowd', value: '27,850' }
     ],
-    quote: 'SIMULATION / DEMO DATA',
+    quote: 'REAL-TIME TELEMETRY FEED',
     visualType: 'metrics'
   },
   {

@@ -76,9 +76,6 @@ export const AiPrediction: React.FC<AiPredictionProps> = ({ onActivateDiversion 
               <span className="text-xs font-mono font-bold text-zinc-800 uppercase">
                 45-MINUTE CROWD ACCUMULATION TRAJECTORY
               </span>
-              <span className="text-[10px] font-mono text-orange-600 bg-orange-50 border border-orange-200 px-2 py-0.5 rounded">
-                SIMULATION / DEMO DATA
-              </span>
             </div>
 
             {/* Interactive Timeline Selector Pills */}

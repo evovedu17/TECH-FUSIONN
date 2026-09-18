@@ -355,7 +355,7 @@ export const LostPersonSystem: React.FC = () => {
                 <button
                   onClick={handleReset}
                   className="p-3.5 text-zinc-600 hover:text-zinc-900 bg-white border border-zinc-200 rounded-xl"
-                  title="Reset Simulation"
+                  title="Reset Status"
                 >
                   <RefreshCcw className="w-4 h-4" />
                 </button>

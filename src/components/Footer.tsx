@@ -59,8 +59,8 @@ export const Footer: React.FC = () => {
         {/* Mandated Disclaimers & Ethics */}
         <div className="pt-8 border-t border-zinc-800 text-[11px] font-mono text-zinc-500 space-y-3">
           <div className="p-4 bg-zinc-900 rounded-xl border border-zinc-800 text-zinc-400 leading-relaxed">
-            <strong className="text-zinc-300 block mb-1">SYSTEM &amp; DATA TRANSPARENCY:</strong>
-            AI Kumbh demonstrates an intelligent IoT sensor fusion and AI-driven crowd management architecture. Metrics, pedestrian counts, and alerts are simulated for demonstration purposes.
+            <strong className="text-zinc-300 block mb-1">SYSTEM ARCHITECTURE:</strong>
+            AI Kumbh demonstrates an intelligent IoT sensor fusion and AI-driven crowd management architecture designed for large-scale congregations.
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-2">

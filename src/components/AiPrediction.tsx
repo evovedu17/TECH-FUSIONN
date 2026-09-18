@@ -264,10 +264,6 @@ export const AiPrediction: React.FC<AiPredictionProps> = ({ onActivateDiversion 
               </span>
             </div>
           </div>
-
-          <div className="text-center mt-4 text-[11px] font-mono text-zinc-400">
-            * PROTOTYPE DISCLAIMER: Model runs simulated synthetic regression curves for conceptual evaluation. Does not claim real-world statistical calibration.
-          </div>
         </div>
       </div>
     </section>

@@ -357,7 +357,7 @@ export const PRESENTATION_SLIDES: PresentationSlide[] = [
     headline: 'WE DON’T CONTROL THE CROWD. WE UNDERSTAND IT.',
     quote: 'AI KUMBH — SENSE. PREDICT. REDIRECT. PROTECT.',
     bullets: [
-      'A prototype architecture proving ethical AI and IoT sensor fusion',
+      'An intelligent architecture proving ethical AI and IoT sensor fusion',
       'Human-in-the-loop decision support for large spiritual congregations',
       'Demonstration of resilient, fail-soft multi-sensor networks'
     ],

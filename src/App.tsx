@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { DisclaimerBanner } from './components/DisclaimerBanner';
 import { Navbar } from './components/Navbar';
 import { Hero3D } from './components/Hero3D';
 import { SensorNetwork3D } from './components/SensorNetwork3D';
@@ -41,9 +40,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white text-zinc-950 font-sans selection:bg-orange-500 selection:text-white relative">
-      {/* Top Universal Disclaimer Ribbon */}
-      <DisclaimerBanner />
-
       {/* Global Navigation Bar */}
       <Navbar
         onOpenCommandCenter={() => setShowCommandCenter(true)}

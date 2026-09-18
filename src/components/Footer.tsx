@@ -59,13 +59,13 @@ export const Footer: React.FC = () => {
         {/* Mandated Disclaimers & Ethics */}
         <div className="pt-8 border-t border-zinc-800 text-[11px] font-mono text-zinc-500 space-y-3">
           <div className="p-4 bg-zinc-900 rounded-xl border border-zinc-800 text-zinc-400 leading-relaxed">
-            <strong className="text-zinc-300 block mb-1">PROTOTYPE &amp; CONCEPTUAL ARCHITECTURE NOTICE:</strong>
-            AI Kumbh is an engineering prototype and conceptual demonstration designed to illustrate the feasibility of IoT sensor fusion and AI-driven crowd intelligence. All metrics, pedestrian counts, telemetry readings, and alerts are simulated demonstration data and must not be interpreted as live real-time feeds from any active Kumbh Mela congregation.
+            <strong className="text-zinc-300 block mb-1">SYSTEM &amp; DATA TRANSPARENCY:</strong>
+            AI Kumbh demonstrates an intelligent IoT sensor fusion and AI-driven crowd management architecture. Metrics, pedestrian counts, and alerts are simulated for demonstration purposes.
           </div>
 
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-2">
             <span>© {new Date().getFullYear()} AI KUMBH — 3D INTELLIGENT CROWD MANAGEMENT SYSTEM</span>
-            <span className="text-orange-400">DEMO PROTOTYPE BUILD 1.0</span>
+            <span className="text-orange-400">VERSION 1.0</span>
           </div>
         </div>
       </div>

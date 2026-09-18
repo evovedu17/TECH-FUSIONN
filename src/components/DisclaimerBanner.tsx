@@ -1,23 +1,8 @@
 import React from 'react';
-import { AlertTriangle, Info, ShieldCheck } from 'lucide-react';
+import { Info, ShieldCheck } from 'lucide-react';
 
 export const DisclaimerBanner: React.FC = () => {
-  return (
-    <aside
-      aria-label="Simulation Notice"
-      className="w-full bg-orange-600 text-white px-4 py-2 text-xs font-mono tracking-wider flex items-center justify-between shadow-xs sticky top-0 z-50 border-b border-orange-700/50"
-    >
-      <div className="max-w-7xl mx-auto w-full flex flex-col sm:flex-row items-center justify-between gap-1 text-center sm:text-left">
-        <div className="flex items-center gap-2 font-bold uppercase">
-          <AlertTriangle className="w-4 h-4 text-orange-200 shrink-0" />
-          <span>PROTOTYPE NOTICE: SIMULATION / DEMO DATA ONLY</span>
-        </div>
-        <div className="text-[11px] text-orange-100 font-normal">
-          Conceptual crowd safety architecture. Not a real-time event feed.
-        </div>
-      </div>
-    </aside>
-  );
+  return null;
 };
 
 export const DemoBadge: React.FC<{ className?: string; size?: 'sm' | 'md' }> = ({
@@ -47,20 +32,19 @@ export const BottomDisclaimer: React.FC = () => {
           </div>
           <div>
             <div className="flex items-center gap-2 justify-center md:justify-start">
-              <span className="font-semibold text-zinc-900 text-sm">PROTOTYPE TRANSPARENCY NOTICE</span>
+              <span className="font-semibold text-zinc-900 text-sm">SYSTEM ARCHITECTURE SUMMARY</span>
               <DemoBadge size="sm" />
             </div>
             <p className="text-xs text-zinc-500 mt-1 max-w-3xl leading-relaxed">
-              This website demonstrates a conceptual AI + IoT architecture. Sensor readings, crowd counts, predictions,
-              locations and emergency events shown here are simulated for demonstration purposes. Do not present simulated
-              information as real-time Kumbh Mela data.
+              This system demonstrates an AI + IoT architecture. Sensor readings, crowd counts, predictions,
+              locations and emergency events shown here are simulated for demonstration purposes.
             </p>
           </div>
         </div>
         <div className="flex items-center gap-4 text-xs font-mono text-zinc-400 shrink-0">
           <span className="flex items-center gap-1">
             <ShieldCheck className="w-3.5 h-3.5 text-zinc-500" />
-            V1.4 PROTOTYPE CORE
+            CORE ARCHITECTURE
           </span>
           <span>•</span>
           <span>SENSE • PREDICT • REDIRECT • PROTECT</span>
